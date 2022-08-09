@@ -1,0 +1,23 @@
+server:
+  port: 8091
+spring:
+  application:
+      name: nacos-registeraa
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848    #注册中心地址
+#      config:
+#        server-addr: localhost:8848 #配置中心
+#        file-extension: yaml #配置文件格式
+#        prefix: nacos-registeraa #配置前缀 ，默认使用sring.application.name
+#        group: DEFAULT_GROUP #默认分组
+#        namespace: 1415d50f-943a-469c-af50-10ca5f8dc91b #命名空间的id
+#  profiles:
+#    active: dev #设置开发状态,配置读取dev里的
+
+test:
+  username: 12345689
+  password: 558889
+
+
