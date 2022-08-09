@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class testcontroller {
     @Value("${user.name}")
-    private String username;
+    private String abbb;
     @Value("${user.password}")
     private String password;
 
@@ -29,7 +29,7 @@ public class testcontroller {
     public String testyuser(){
         String test = configuration.getUsername();
         System.out.println("test:"+test);
-        System.out.println(username);
+        System.out.println(abbb);
         return "111"+user.getName()+user.getPassword();
     }
 
